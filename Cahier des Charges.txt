@@ -1,0 +1,24 @@
+Cahier des Charges
+1. Objectif du Jeu
+•	Genre : Jeu 2D vue du dessus.
+•	Objectif : Le joueur contrôle un personnage (carré) qui doit collecter des ressources pour générer des minions. Ces minions doivent ensuite se diriger vers un boss (un plus gros carré) au centre de la map pour le vaincre.
+2. Éléments du Jeu
+•	Personnage Principal : Un carré contrôlé par le joueur.
+•	Ressources : Arbres, fontaine, feu de camp.
+•	Minions : Générés par le joueur après interaction avec les ressources.
+•	Boss : Un plus gros carré au centre de la map.
+•	Map : Circulaire, avec le boss au centre.
+3. Mécaniques de Jeu
+•	Mouvement du Personnage : Déplacement avec les touches directionnelles ou WASD.
+•	Interaction avec les Ressources : Le joueur doit rester appuyé sur la barre d'espace pour interagir avec une ressource et générer des minions.
+•	Génération de Minions : Après une interaction réussie, un minion est généré et se dirige automatiquement vers le boss.
+•	Combat : Les minions attaquent le boss lorsqu'ils atteignent le centre de la map.
+4. Interface Utilisateur
+•	HUD : Affiche le nombre de minions générés, la santé du boss, et éventuellement un compteur de ressources.
+•	Menu de Pause : Options pour reprendre, quitter, ou ajuster les paramètres.
+5. Graphismes et Sons
+•	Graphismes : Style minimaliste avec des formes géométriques simples (carrés, cercles).
+•	Sons : Effets sonores pour les interactions, la génération de minions, et les attaques.
+6. Plateforme
+•	Plateforme : PC (Windows/Mac/Linux).
+•	Moteur : Unity.
